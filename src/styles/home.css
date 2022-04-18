@@ -23,7 +23,7 @@
 	color: #fff;
 }
 .empty {
-	display: flex;
+	
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -39,9 +39,7 @@
 		grid-template-columns: 2.5fr 9.5fr;
 		grid-gap: 2rem;
 	}
-	/* .price {
-		margin-bottom: 40px;
-	} */
+
 	.form-price__filter {
 		height: 45px;
 		display: grid;
@@ -61,8 +59,8 @@
 		font-size: 14px;
 	}
 	.form-price__buttons {
-		display: flex;
-		justify-content: end;
+	
+		justify-content:flex-end;
 		margin-top: 20px;
 	}
 	.form-price .button-reset {
@@ -83,14 +81,13 @@
 		color: #fff;
 	}
 	.categories {
-		display: flex;
+	
 		flex-direction: column;
-		justify-content: start;
+		justify-content:center;
 		align-items: start;
 	}
-	.price .title,
 	.categories .title {
-		display: flex;
+		
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;

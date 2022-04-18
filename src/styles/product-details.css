@@ -6,8 +6,8 @@
 	margin: 60px 40px 70px 40px;
 }
 .detail-nav {
-	display: flex;
-	justify-content: space-start;
+
+	justify-content: center;
 	gap: 20px;
 }
 .detail-nav h3 {
@@ -20,13 +20,13 @@
 }
 
 .images {
-	display: flex;
+	
 	flex-direction: column;
-	justify-content: start;
+	justify-content:center;
 	align-items: center;
 }
 .slider-product {
-	display: flex;
+	
 	justify-content: center;
 	align-items: center;
 }
@@ -43,7 +43,7 @@
 	margin-bottom: 30px;
 }
 .thumb-slide {
-	display: flex;
+
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -84,8 +84,8 @@
 	text-transform: uppercase;
 }
 .quantity-counter {
-	display: flex;
-	justify-content: start;
+	
+	justify-content: center;
 	align-items: center;
 	margin-bottom: 20px;
 }

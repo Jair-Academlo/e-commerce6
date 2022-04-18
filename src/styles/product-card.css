@@ -12,7 +12,7 @@
 }
 .card .hover-animation {
 	position: relative;
-	display: flex;
+	
 	justify-content: center;
 	align-items: center;
 	max-width: 200px;

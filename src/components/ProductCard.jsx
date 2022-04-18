@@ -25,7 +25,7 @@ const ProductCard = ({ productsItem }) => {
 				<div className="card-body">
 					<h4 className="card-title">{productsItem.title}</h4>
 				</div>
-				<div className="d-flex justify-content-between p-3">
+				<div className="d-flex 		p-3">
 					<h3>
 						<span>Price</span> <br />${productsItem.price}
 					</h3>

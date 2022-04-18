@@ -1,0 +1,135 @@
+.main {
+	margin-top: 40px;
+	color: #515151;
+}
+.categories {
+	display: none;
+}
+.form-search {
+	height: 50px;
+	margin-bottom: 40px;
+}
+.form-search input {
+	border-radius: 8px 0 0 8px;
+	padding: 0 20px;
+	font-size: 18px;
+}
+.form-search button {
+	border-radius: 0 8px 8px 0;
+	padding: 0 30px;
+	font-size: 18px;
+	border: none;
+	background: #f85555;
+	color: #fff;
+}
+.empty {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.products-grid {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+	.main {
+		display: grid;
+		grid-template-columns: 2.5fr 9.5fr;
+		grid-gap: 2rem;
+	}
+	/* .price {
+		margin-bottom: 40px;
+	} */
+	.form-price__filter {
+		height: 45px;
+		display: grid;
+		grid-template-columns: 1.25fr 4.75fr;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.form-price__filter label {
+		width: 30px;
+		font-size: 14px;
+		font-weight: normal;
+		color: #929292;
+	}
+	.form-price__filter input {
+		border-radius: 8px;
+		padding: 7px 10px;
+		font-size: 14px;
+	}
+	.form-price__buttons {
+		display: flex;
+		justify-content: end;
+		margin-top: 20px;
+	}
+	.form-price .button-reset {
+		border-radius: 8px;
+		padding: 7px 15px;
+		font-size: 14px;
+		border: none;
+		background: rgba(0, 0, 0, 0.2);
+		color: #000;
+	}
+	.form-price .button-price {
+		margin-left: 10px;
+		border-radius: 8px;
+		padding: 7px 15px;
+		font-size: 14px;
+		border: none;
+		background: #f85555;
+		color: #fff;
+	}
+	.categories {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+	}
+	.price .title,
+	.categories .title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 0 2px;
+		height: 40px;
+		border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+		margin-bottom: 10px;
+	}
+	.categories .button-category {
+		padding: 0.5rem 2rem;
+		border: none;
+		background-color: transparent;
+		color: #515151;
+		font-size: 14px;
+	}
+	.categories .button-category:hover {
+		color: #f85555;
+	}
+	.categories .button-category.active {
+		color: #f85555;
+	}
+	.products-grid {
+		margin-left: 30px;
+		margin-right: 5px;
+	}
+	.products-cards {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.products-grid {
+		margin-left: 40px;
+		margin-right: 0;
+	}
+	.products-cards {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 3rem;
+	}
+} 
